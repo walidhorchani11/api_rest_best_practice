@@ -1,6 +1,13 @@
 const express = require('express');
 
+const routerV1 = require('./src/v1/routes');
+const routerV2 = require('./src/v2/routes');
+
 const app = express();
+
+// on definit les routes globale comme /api/v1 ou /api/v2
+app.use('/api/v1', routerV1);
+app.use('/api/v2', routerV2);
 
 const PORT = 3000 || process.env.PORT;
 
