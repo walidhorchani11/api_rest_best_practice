@@ -2,8 +2,12 @@ const express = require('express');
 
 const routerV1 = require('./src/v1/routes');
 const routerV2 = require('./src/v2/routes');
+const workoutsRoutes = require('./src/v1/routes/workoutsRoutes');
 
 const app = express();
+
+// plural name of recource
+app.use('/api/v1/workouts', workoutsRoutes);
 
 // on definit les routes globale comme /api/v1 ou /api/v2
 app.use('/api/v1', routerV1);
