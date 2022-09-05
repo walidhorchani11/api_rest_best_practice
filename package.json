@@ -1,0 +1,34 @@
+{
+  "name": "api_best_practice",
+  "version": "1.0.0",
+  "description": "learn best practice to build rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walidhorchani11/api_rest_best_practice.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "node",
+    "js",
+    "express",
+    "best",
+    "practice"
+  ],
+  "author": "horchani walid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walidhorchani11/api_rest_best_practice/issues"
+  },
+  "homepage": "https://github.com/walidhorchani11/api_rest_best_practice#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
